@@ -1,0 +1,25 @@
+
+/* top bar style start */
+
+
+.topbar-anchor{
+    text-decoration: none;
+    color: #000;
+}
+.topbar-para {
+    margin: 0 !important;
+    font-size: 1rem;
+}
+
+
+.top-bar .nav-link {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: #06a3da;
+}
+
+/* top bar style end */
+
