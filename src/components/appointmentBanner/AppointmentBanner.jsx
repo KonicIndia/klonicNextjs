@@ -7,7 +7,7 @@ function AppointmentTest() {
                 <div class="container">
                     <div class="appointment-form">
                         <h4><i class="flaticon-calendar"></i> Make An Appointment</h4>
-                        <form  method="post" action="https://konichealthcare.com/mogareact1/formsubmit/appointment-banner.php">
+                        <form  method="post" action="https://konichealthcare.com/mogareact/formsubmit/appointment-banner.php">
                             <div class="form-group">
                                 <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" />
                                 <input type="text" name="name" class="form-control" placeholder="Name" />

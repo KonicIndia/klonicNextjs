@@ -63,7 +63,7 @@ function Contact() {
                 <h2>Enquiry Form</h2>
             </div>
             <div className="contact-form">
-                <form action="./query.php" method="post">
+                <form method="post" action="https://konichealthcare.com/mogareact/formsubmit/appointment-banner.php">
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
                             <div className="form-group">
