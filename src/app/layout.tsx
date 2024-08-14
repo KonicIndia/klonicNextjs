@@ -7,7 +7,7 @@ import "./globals.css";
 import Topbar from "@/components/topbar/Topbar"
 import Headers from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -29,6 +29,7 @@ export default function RootLayout({
         <Topbar />
         <Headers />
         {children}
+        <SpeedInsights />
         <Footer />
         </body>
     </html>
